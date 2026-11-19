@@ -1,58 +1,121 @@
 # AI Full-Stack Learning
 
-我的 AI 全栈开发学习工作区。目标是通过系统学习、阅读成熟开源项目和持续动手实践，逐步具备独立开发、评估和部署 AI 应用的能力。
+我的长期 AI 全栈学习工作区。通过中文开源教材、真实项目和持续实践，逐步具备独立设计、开发、测试、部署和维护完整 AI 系统的能力。
 
-## 学习方式
-- **ChatGPT：** 学习导师，解释概念、答疑、设计检查题和复盘。
-- **Codex：** 编程搭档，辅助阅读、修改、测试和调试；重要代码由我理解并验证。
-- **GitHub：** 学习资料入口、版本管理和学习成果归档。
-- **原则：** 以成熟开源项目为主教材；先运行，再阅读，再修改，最后独立实现。
+## 最终目标
 
-## 当前情况
-- 主设备：MacBook；Python 已安装并可正常运行
+不仅会调用模型 API，还能独立完成一个 AI 产品的完整工程过程：
+
+- 理解需求、用户场景和系统边界；
+- 设计前后端、数据库、模型服务和数据流；
+- 构建 LLM、RAG、Agent 和 MCP 应用；
+- 编写测试、评估模型质量、排查故障；
+- 部署、监控、保护数据并控制成本；
+- 解释技术选择、局限和改进方向。
+
+## 学习者与学习安排
+
+- Python：入门阶段
+- 数学：有基础，需要结合项目逐步补强
+- 英语：可以阅读技术资料，中文讲解优先
 - 每日投入：约 2 小时
-- 目标：AI 全栈开发者
-- Mac 与 Windows 分别创建虚拟环境，通过 Git 同步代码；不提交密钥、虚拟环境和大型模型文件。
+- 学习方式：项目驱动，理论与实践结合
+- 主要设备：MacBook；辅助设备：Windows 11
 
-## 36 周路线
-| 阶段 | 周数 | 核心内容 | 阶段成果 |
+路线规划为 48 周，每周建议学习 6 天、休息或补进度 1 天。它是参考节奏，不是硬性期限；阶段验收未通过时，先补足再继续。
+
+## 工具分工
+
+| 工具 | 主要职责 |
+|---|---|
+| GitHub | 在线阅读开源教材、保存代码和学习记录、管理版本 |
+| VS Code | 编辑代码、运行程序、管理项目 |
+| Codex 扩展 | 阅读当前项目、解释代码、辅助调试、代码审查和测试 |
+| ChatGPT | 学习规划、概念讲解、疑难讨论、阶段复盘和验收 |
+| MacBook / Windows 11 | 两套独立开发环境，通过 Git 同步源码和 Markdown |
+
+学习原则：先自己思考和尝试，再让 AI 提示、解释和检查；关键代码必须能由我自己讲清楚。
+
+## 48 周学习路线
+
+| 阶段 | 周数 | 核心内容 | 项目成果 |
 |---|---:|---|---|
-| Python 与开发基础 | 1–4 | Python、Git、API、数据处理 | Python 工具与数据分析 |
-| 机器学习 | 5–8 | 数学补充、经典机器学习 | 回归、分类、聚类项目 |
-| 深度学习 | 9–14 | PyTorch、神经网络、Transformer | 神经网络与简化 Attention |
-| 大语言模型 | 15–20 | Tokenizer、GPT、微调与推理 | 聊天机器人、迷你语言模型 |
-| LLM 应用与 RAG | 21–26 | API、FastAPI、Embedding、RAG | 个人 AI 知识库 |
-| Agent | 27–31 | 工具调用、Memory、MCP | AI 研究助手 |
-| 工程化部署 | 32–36 | Docker、部署、监控、安全 | 可部署的 AI 工作平台 |
+| 1. Python 与开发基本功 | 1–6 | Python、Git、HTTP、API、测试 | 命令行学习助手 |
+| 2. 数学与数据处理 | 7–10 | NumPy、Pandas、统计、梯度直觉 | 数据分析报告 |
+| 3. 机器学习 | 11–16 | 回归、分类、聚类、评估 | 端到端预测/分类项目 |
+| 4. 深度学习 | 17–22 | PyTorch、神经网络、Attention、Transformer | 可训练和评估的模型 |
+| 5. LLM | 23–28 | Token、Transformer、推理、模型 API | 多模型聊天应用 |
+| 6. RAG | 29–34 | 文档处理、Embedding、检索、评估 | 个人知识库问答系统 |
+| 7. Agent 与 MCP | 35–40 | Tool Calling、工作流、Memory、MCP | 可控的研究/任务助理 |
+| 8. 全栈工程与部署 | 41–48 | FastAPI、数据库、Web、Docker、安全、部署 | 完整 AI 毕业项目 |
 
-## 开源主教材
-1. [Python-100-Days](https://github.com/jackfrued/Python-100-Days)
-2. [Datawhale AI Learning Roadmap](https://github.com/datawhalechina/ai-learning-roadmap)
-3. [南瓜书](https://github.com/datawhalechina/pumpkin-book)
-4. [动手学深度学习](https://github.com/d2l-ai/d2l-zh)
-5. [Happy-LLM](https://github.com/datawhalechina/happy-llm)
-6. [LLM Universe](https://github.com/datawhalechina/llm-universe)
-7. [Hello-Agents](https://github.com/datawhalechina/hello-agents)
-8. [All-in-RAG](https://github.com/datawhalechina/all-in-rag)
-9. [Self-LLM](https://github.com/datawhalechina/self-llm)
+详细的逐周任务、项目和验收标准见 [48 周学习路线](roadmap/36-week-roadmap.md)。
 
-## 每日节奏（约 2 小时）
-- 20 分钟复习
-- 40 分钟阅读教材、理解概念
-- 50 分钟运行、修改和编写代码
-- 10 分钟记录问题、结论并提交 Git
+## 项目驱动方法
 
-## 目录
-- roadmap/：学习路线
-- daily-logs/：每日记录
-- projects/：项目实践
-- notes/：概念笔记
-- resources/：资料索引
+每个阶段都遵循同一过程：
 
-## 设备同步
-切换设备先执行 git pull，学习后执行 git add、git commit、git push。Mac 和 Windows 各自创建 .venv；不要同步虚拟环境或提交 .env。
+1. 选定一个真实问题和最小可用目标；
+2. 拆解需求、数据流和技术任务；
+3. 学一个概念，立即在项目里实践；
+4. 自己编写关键部分，让 Codex 提示和审查；
+5. 运行测试，记录结果和失败案例；
+6. 写清楚如何安装、运行和复现；
+7. 完成阶段验收后再进入下一阶段。
 
-## 当前进度
+## 每日 2 小时节奏
+
+- 10 分钟：回顾上次学习和问题；
+- 25 分钟：阅读教材或官方文档；
+- 65 分钟：项目实践、编码和调试；
+- 15 分钟：笔记、测试结果和学习记录；
+- 5 分钟：写下下次的第一个动作。
+
+## 仓库目录
+
+- `AGENTS.md`：Codex 长期教学和工程协作规则
+- `roadmap/`：阶段路线、逐周任务和验收标准
+- `daily-logs/`：每日学习记录
+- `notes/`：知识点、术语和问题笔记
+- `projects/`：阶段项目和毕业项目
+- `resources/`：精选教材、文档和开源项目
+
+## 当前主教材与资源
+
+- [Python-100-Days](https://github.com/jackfrued/Python-100-Days)
+- [动手学深度学习（中文）](https://zh.d2l.ai/)
+- [南瓜书](https://github.com/datawhalechina/pumpkin-book)
+- [Happy-LLM](https://github.com/datawhalechina/happy-llm)
+- [LLM Universe](https://github.com/datawhalechina/llm-universe)
+- [Hello-Agents](https://github.com/datawhalechina/hello-agents)
+- [All-in-RAG](https://github.com/datawhalechina/all-in-rag)
+- [MCP 官方文档](https://modelcontextprotocol.io/docs/getting-started/intro)
+- [PyTorch Tutorials](https://pytorch.org/tutorials/)
+
+按当前阶段选择主教材，不需要一次性下载或学习所有仓库。优先在线阅读；只有需要运行源码时才下载对应示例或项目。
+
+## MacBook 与 Windows 同步约定
+
+- 两台设备分别克隆同一个仓库。
+- 每台设备独立创建自己的 Python 虚拟环境。
+- 切换设备前先检查工作区并同步远程更新。
+- 不提交 `.venv/`、`.env`、API Key、密码、模型权重和大型数据集。
+- 避免两台设备同时修改同一个文件。
+- Git 提交和推送前先检查变更内容。
+
+## 当前准备进度
+
 - [x] 创建 GitHub 学习仓库
-- [ ] 完成第 1 天：熟悉教材仓库与 Python 基础
-- [ ] 完成第 1 周：Python 基础巩固与 Git 工作流
+- [x] MacBook 安装并识别 Git
+- [x] 本地仓库关联远程 origin
+- [x] 验证能够读取远程 main 分支
+- [x] 建立第一版 AGENTS.md（本次升级为长期规则）
+- [ ] 将更新后的 README、路线和 AGENTS 同步到 MacBook
+- [ ] 检查 Python 虚拟环境
+- [ ] 完成 Codex 项目读取测试
+- [ ] 完成 Day 0 环境验收
+- [ ] 开始 Day 1：Python 基础与第一个小项目
+
+## 下一步
+
+完成 Day 0 环境验收后，从路线第 1 周开始。第一项实战是制作一个命令行学习助手，逐步加入文件保存、API 调用和测试。
